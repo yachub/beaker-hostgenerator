@@ -286,6 +286,9 @@ module BeakerHostGenerator
           :general => {
             'platform' => 'el-7-x86_64'
           },
+          :vmpooler => {
+            'template' => 'centos-7-x64-gce-n1-standard-2'
+          },
           :docker => {
             'docker_image_commands' => [
               'cp /bin/true /sbin/agetty',
@@ -1794,7 +1797,7 @@ module BeakerHostGenerator
             'platform' => 'centos-7-x86_64'
           },
           :vmpooler => {
-            'template' => 'centos-7-x86_64'
+            'template' => 'centos-7-x64-gce-n1-standard-2'
           }
         }
       }
