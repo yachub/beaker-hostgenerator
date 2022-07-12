@@ -284,7 +284,8 @@ module BeakerHostGenerator
         },
         'centos7-64' => {
           :general => {
-            'platform' => 'el-7-x86_64'
+            'platform' => 'el-7-x86_64',
+            'packaging_platform' => 'el-7-x86_64'
           },
           :vmpooler => {
             'template' => 'centos-7-x64-gce-n1-standard-2'
