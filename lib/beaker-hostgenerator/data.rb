@@ -1139,7 +1139,7 @@ module BeakerHostGenerator
             'platform' => 'sles-12-x86_64'
           },
           :vmpooler => {
-            'template' => 'sles-12-x86_64'
+            'template' => 'sles-12-x64-gce-n1-standard-2'
           }
         },
         'sles12-S390X' => {
